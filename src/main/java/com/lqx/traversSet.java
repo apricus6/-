@@ -15,13 +15,13 @@ public class traversSet {
     public static void main(String[] args) {
         /*
         方法一：Iterator遍历
-
+        */
         Iterator<String> iterator = hashSet.iterator();
         while(iterator.hasNext()){
             String next = iterator.next();
             System.out.println(next);
         }
-        */
+
 
         /*
         方法二：增强for循环
